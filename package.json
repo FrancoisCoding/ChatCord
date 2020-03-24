@@ -1,0 +1,19 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "Realtime chat application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoisCoding/ChatCord.git"
+  },
+  "author": "Isaiah Francois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrancoisCoding/ChatCord/issues"
+  },
+  "homepage": "https://github.com/FrancoisCoding/ChatCord#readme"
+}
