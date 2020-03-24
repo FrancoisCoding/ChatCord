@@ -13,6 +13,8 @@ app.use(express.static(path.join(__dirname, "public")));
 // Run when client connects
 io.on("connection", socket => {
   console.log("New WS Conection");
+
+  socket.emit("message", "Welcome to ChatCord!");
 });
 
 const PORT = process.env.PORT || 3000;
